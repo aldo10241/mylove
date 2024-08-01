@@ -25,3 +25,15 @@
 #imagen.fade-in {
     opacity: 1;
 }
+
+#identificador {
+    transition: opacity 1s ease-in-out;
+}
+
+#identificador.fade-out {
+    opacity: 0;
+}
+
+#identificador.fade-in {
+    opacity: 1;
+}
