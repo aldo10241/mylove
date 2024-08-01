@@ -10,41 +10,34 @@
 
 <body class="bg-cover bg-[url('https://goo.su/wPEvCzW')]">
 
-    <!-- Full-width fluid until the `md` breakpoint, then lock to container -->
     <div class="flex h-screen justify-center items-center">
 
-        <div class="flex flex-col justify-center items-center bg-white p-8">
-            <iframe class="mb-5 w-full max-w-xl" height="315"
-                src="https://www.youtube.com/embed/WMjty6Ki6jA?si=R0c8fdVEXjtpEjMK" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
+        <div class="flex flex-col justify-center items-center bg-white p-5 w-full max-w-3xl mx-auto">
 
-            <h1 class="font-sans font-bold text-5xl mb-5 text-center"></h1>
+            <div class="w-full flex justify-center items-center mb-5">
+                <iframe class="w-full max-w-[560px] h-[315px]"
+                    src="https://www.youtube.com/embed/WMjty6Ki6jA?si=R0c8fdVEXjtpEjMK" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
 
-            <p id="carta" class="font-sans font-bold text-center text-xl mb-10 italic text-gray-500">
+            <div id="carta" class="font-sans font-bold text-center text-xl mb-10 italic text-gray-500">
                 "No revivas el pasado <br>
                 No sobre pienses el mañana <br>
                 Solo vive el presente sin precedentes <br>
                 Y recuerda que yo siempre estaré para ti"
-            </p>
-
-            <p id="imagen"></p>
+            </div>
 
             <button onclick="mensaje()"
                 class="font-sans font-bold text-white rounded-full bg-purple-500 hover:bg-purple-600 px-14 py-3">
                 <p class="animate-ping">❤️</p>
             </button>
 
-
-
-
         </div>
 
     </div>
-
-
 
     <script src="src/main.js"></script>
 </body>
