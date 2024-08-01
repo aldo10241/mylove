@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#carta {
+    transition: opacity 1s ease-in-out;
+}
+
+#carta.fade-out {
+    opacity: 0;
+}
+
+#carta.fade-in {
+    opacity: 1;
+}
+
+#imagen {
+    transition: opacity 1s ease-in-out;
+}
+
+#imagen.fade-out {
+    opacity: 0;
+}
+
+#imagen.fade-in {
+    opacity: 1;
+}
